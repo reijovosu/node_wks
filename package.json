@@ -1,18 +1,23 @@
 {
-  "name": "workshop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "boom": "^7.2.0",
-    "good": "^8.1.1",
-    "good-file": "^6.0.1",
-    "good-squeeze": "^5.1.0",
-    "hapi": "^17.5.2"
-  }
+    "name": "workshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "boom": "^7.2.0",
+        "good": "^8.1.1",
+        "good-file": "^6.0.1",
+        "good-squeeze": "^5.1.0",
+        "hapi": "^17.5.2",
+        "hapi-swagger": "^9.1.1",
+        "inert": "^5.1.0",
+        "joi": "^13.4.0",
+        "vision": "^5.3.3"
+    }
 }
